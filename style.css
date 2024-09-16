@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Medium.ttf);
+
+}
+@font-face {
+    font-family: poppinsthin;
+    src: url(Poppins-ExtraLight.ttf);
+}
+main{
+
+}
+.container{
+    width: 320px;
+    margin: auto;
+    padding: 50px 0px ;
+}
+.header{
+    margin-bottom: 100px;
+}
+.header h1{
+    font-size: 20px;
+    font-family: poppinsthin;
+    font-weight: 400;
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+}
+span{
+    font-size: 22px;
+    font-family: poppins;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+   
+}
+.header p{
+    font-size: 12px;
+    font-weight: 200;
+    font-family: poppins;
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+} 
+.supervisor{ 
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px hsl(229, 6%, 66%);
+    padding: 20px;
+    width: 320px;
+    height: 250px;
+    position: relative;
+    margin-bottom: 15%;
+}
+.supervisor::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: hsl(180, 62%, 55%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.supervisor h1 {
+    font-size: 20px;
+    font-family: poppins;
+    padding-bottom: 10px;
+    color: hsl(234, 12%, 34%);
+}
+.supervisor p{
+    font-size: 14px;
+    font-family: poppins;
+    color: hsl(229, 6%, 66%);
+}
+.supervisor svg{
+    margin-left: 70%;
+    margin-top: 20%;
+    
+}
+.Teambuilder{ 
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px hsl(229, 6%, 66%);
+    padding: 20px;
+    width: 320px;
+    height: 250px;
+    position: relative;
+    margin-bottom: 15%;
+}
+.Teambuilder::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: hsl(0, 78%, 62%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Teambuilder h1 {
+    font-size: 20px;
+    font-family: poppins;
+    padding-bottom: 10px;
+    color: hsl(234, 12%, 34%);
+}
+.Teambuilder p{
+    font-size: 14px;
+    font-family: poppins;
+    color: hsl(229, 6%, 66%);
+}
+.Teambuilder svg{
+    margin-left: 70%;
+    margin-top: 20%;
+    
+}
+.Karma{ 
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px hsl(229, 6%, 66%);
+    padding: 20px;
+    width: 320px;
+    height: 250px;
+    position: relative;
+    margin-bottom: 15%;
+}
+.Karma::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: hsl(34, 97%, 64%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Karma h1 {
+    font-size: 20px;
+    font-family: poppins;
+    padding-bottom: 10px;
+    color: hsl(234, 12%, 34%);
+}
+.Karma p{
+    font-size: 14px;
+    font-family: poppins;
+    color: hsl(229, 6%, 66%);
+}
+.Karma svg{
+    margin-left: 70%;
+    margin-top: 20%;
+    
+}
+.Calculator{ 
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 10px;
+    border-color: aquamarine;
+    box-shadow: 0px 4px 8px hsl(229, 6%, 66%);
+    padding: 20px;
+    width: 320px;
+    height: 250px;
+    position: relative;
+    margin-bottom: 15%;
+}
+.Calculator::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: hsl(212, 86%, 64%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Calculator h1 {
+    font-size: 20px;
+    font-family: poppins;
+    padding-bottom: 10px;
+    color: hsl(234, 12%, 34%);
+}
+.Calculator p{
+    font-size: 14px;
+    font-family: poppins;
+    color: hsl(229, 6%, 66%);
+}
+.Calculator svg{
+    margin-left: 70%;
+    margin-top: 20%;
+    
+}
+
+@media screen and (min-width: 640px) {    
+    .container{
+        width: 1080px;
+        margin: auto;
+    }
+    #pbr{
+        display: none;
+    }
+    section{
+        display: flex;
+        margin:  auto;
+        padding-left: 3%;
+    }
+    .supervisor{
+        margin-right: 3%;
+    }
+    .Calculator{
+        margin-left: 3%;
+    }
+    .supervisor, .Calculator{
+        margin-top: 13%;
+    }
+    .Teambuilder{
+        margin-bottom: 10%;
+    }
+    .middlecont{
+        display: block;
+    }
+    .header{
+        margin-bottom: 50px;
+    }
+}
